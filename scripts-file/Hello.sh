@@ -1,9 +1,5 @@
-#! /bin/sh
+#! /usr/bin/bash
 
-echo "Top Three Movies"
-read -a movies 
-echo "the Movies are : ${names[0]} ${names[1]}" 
-
-echo "enter movies "
-read 
-echo "movies : $REPLY"
+echo "What are your 3 favorite movies? "
+read
+echo "your 3 favorite movies are: $REPLY"
